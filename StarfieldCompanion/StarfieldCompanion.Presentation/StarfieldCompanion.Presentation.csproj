@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Images\icon.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Images\icon.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Assets\Colors\" />
+    <Folder Include="Assets\Styles\" />
+    <Folder Include="Model\" />
+    <Folder Include="Conversion\" />
+    <Folder Include="Controls\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.1" />
+    <PackageReference Include="MahApps.Metro.IconPacks" Version="4.11.0" />
+    <PackageReference Include="MahApps.Metro.IconPacks.FontAwesome" Version="4.11.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
+    <PackageReference Include="Syncfusion.Licensing" Version="23.1.36" />
+    <PackageReference Include="Syncfusion.SfNavigationDrawer.WPF" Version="23.1.36" />
+    <PackageReference Include="Syncfusion.SfSkinManager.WPF" Version="23.1.36" />
+    <PackageReference Include="Syncfusion.Shared.Base" Version="23.1.36" />
+    <PackageReference Include="Syncfusion.Shared.WPF" Version="23.1.36" />
+    <PackageReference Include="Syncfusion.Themes.MaterialLight.WPF" Version="23.1.36" />
+  </ItemGroup>
+
+</Project>

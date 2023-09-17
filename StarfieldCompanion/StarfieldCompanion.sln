@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarfieldCompanion.MAUI", "StarfieldCompanion.MAUI\StarfieldCompanion.MAUI.csproj", "{BD2663E0-238A-4A2C-AC2C-E5DA181FEB65}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarfieldCompanion.Presentation", "StarfieldCompanion.Presentation\StarfieldCompanion.Presentation.csproj", "{A8CAB232-5812-463B-B141-E22550B5183B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,12 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BD2663E0-238A-4A2C-AC2C-E5DA181FEB65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BD2663E0-238A-4A2C-AC2C-E5DA181FEB65}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BD2663E0-238A-4A2C-AC2C-E5DA181FEB65}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{BD2663E0-238A-4A2C-AC2C-E5DA181FEB65}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BD2663E0-238A-4A2C-AC2C-E5DA181FEB65}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BD2663E0-238A-4A2C-AC2C-E5DA181FEB65}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A8CAB232-5812-463B-B141-E22550B5183B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8CAB232-5812-463B-B141-E22550B5183B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8CAB232-5812-463B-B141-E22550B5183B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8CAB232-5812-463B-B141-E22550B5183B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
